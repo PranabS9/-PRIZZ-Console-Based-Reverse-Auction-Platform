@@ -1,0 +1,22 @@
+# Compiled bytecode
+java-prizz/bin/
+*.class
+
+# SQLite database (runtime artifact)
+*.db
+
+# CSV exports (runtime artifact)
+java-prizz/data/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Node / React (deleted, keeping ignore in case remnants appear)
+node_modules/
+.env
+dist/
+build/
